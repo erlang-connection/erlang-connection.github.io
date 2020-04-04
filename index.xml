@@ -2,13 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Erlang Connection</title>
-    <link>https://erlang-connection.eu/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Erlang Connection</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
+    <lastBuildDate>Tue, 31 Mar 2020 20:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://erlang-connection.eu/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>First Meetup</title>
+      <link>http://localhost:1313/meetups/test3/</link>
+      <pubDate>Tue, 31 Mar 2020 20:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/meetups/test3/</guid>
+      <description>My content&amp;hellip; here!</description>
+    </item>
+    
+    <item>
+      <title>First Meetup</title>
+      <link>http://localhost:1313/meetups/test4/</link>
+      <pubDate>Tue, 31 Mar 2020 20:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/meetups/test4/</guid>
+      <description>My content&amp;hellip; here!</description>
+    </item>
+    
+    <item>
+      <title>First Meetup</title>
+      <link>http://localhost:1313/meetups/test2/</link>
+      <pubDate>Tue, 31 Mar 2020 19:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/meetups/test2/</guid>
+      <description>My content&amp;hellip; here!</description>
+    </item>
+    
+    <item>
+      <title>That a pretty long title for a meetup</title>
+      <link>http://localhost:1313/meetups/test/</link>
+      <pubDate>Tue, 31 Mar 2020 18:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/meetups/test/</guid>
+      <description>My content&amp;hellip; here!
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam posuere iaculis interdum. Cras hendrerit metus eget leo lacinia mattis. Curabitur at odio ex. Etiam vitae luctus arcu. Sed et ante tempus, facilisis libero quis, pulvinar augue. Aenean sit amet elit ligula. Aenean a enim sed nibh gravida porta. Pellentesque tortor mi, venenatis ut bibendum id, euismod at lectus. Vivamus quis pretium neque. Aenean auctor dui vitae metus semper, in commodo purus venenatis.</description>
+    </item>
+    
+    <item>
+      <title>That a pretty long title for a meetup</title>
+      <link>http://localhost:1313/meetups/test123/</link>
+      <pubDate>Wed, 31 Mar 2010 18:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/meetups/test123/</guid>
+      <description>My content&amp;hellip; here!
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam posuere iaculis interdum. Cras hendrerit metus eget leo lacinia mattis. Curabitur at odio ex. Etiam vitae luctus arcu. Sed et ante tempus, facilisis libero quis, pulvinar augue. Aenean sit amet elit ligula. Aenean a enim sed nibh gravida porta. Pellentesque tortor mi, venenatis ut bibendum id, euismod at lectus. Vivamus quis pretium neque. Aenean auctor dui vitae metus semper, in commodo purus venenatis.</description>
+    </item>
     
   </channel>
 </rss>
