@@ -105,9 +105,6 @@ p {
 .btn-info {
   background: #1784fb;
   color: #fff;
-}
-
-h1.meetups-header {
   border: 2px solid #1784fb;
 }
 .btn-info:hover, .btn-info:focus, .btn-info:active {
@@ -1195,60 +1192,3 @@ h1.meetups-header {
 /*   flex-wrap: wrap; */
 /* } */
 /*# sourceMappingURL=style.css.map */
-
-
-.meetups {
-	margin: 0;
-	padding: 0;
-	/* background: #E8ECF1; */
-}
-
-.meetups-header {
-	padding: 1em;
-	background-image: url("http://localhost:1313/images/hero_bg.jpg");
-	background-position: 50% -25px;
-	overflow-x: hidden;
-	position: relative;
-	z-index: 1;
-}
-
-.meetup-upcoming {
-    border-bottom: 1px #E8ECF1 solid;
-    margin: 1em;
-    padding: 0.3em;
-}
-
-.meetup-passed {
-    background: #E8ECF1;
-    border-bottom: 1px #fff solid;
-    margin: 0.3em;
-    padding: 0.3em;
-}
-
-.meetup-item {
-    display: inline-block;
-}
-
-.meetups-main {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.meetup-head {
-    margin: 0;
-    padding: 0;
-    margin-right: 1em;
-    text-align: right;
-}
-
-.meetup-content {
-    margin: 0;
-    padding: 0;
-}
-
-.meetup-keywords {
-    display: inline;
-    background: #E8ECF1;
-    padding: 0.1em;
-    color: #3da1a7;
-}
