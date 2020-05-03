@@ -1,0 +1,20 @@
+.navbar {
+    margin-bottom: 1em;
+}
+
+.post-image {
+    width: 100%;
+}
+
+.post-title {
+    text-align: right;
+    
+}
+
+.post-keywords {
+    text-align: justify;
+}
+
+.post-content {
+    text-align: justify;
+}

@@ -1,0 +1,153 @@
+/*
+ * http://paletton.com/#uid=30Q0u0koT-FeRNlkhFRv5wwwoox
+ */
+
+body {
+    background-color: #E8ECF1;
+}
+
+.events-header {
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+.events {
+    position: relative;
+    padding-top: 3em;
+    z-index: 0;
+    width: 100%;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+.event { 
+    background-color: #ffffff;
+    margin: 0.3em;
+    padding: 0;
+    max-width: 300px;
+    min-width: 300px;
+    box-shadow: 1px 1px 1px #888;
+}
+
+.event-content {
+    margin: 1em;
+    text-align: justify;
+    position: relative;
+}
+
+.event-location {
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.3em;
+    border-top-right-radius: 8px;
+}
+
+.event-date {
+}
+
+.event-header {
+    max-height: 200px;
+    max-width: 100%;
+    background-color: grey;
+    text-align: left;
+}
+
+.event-image {
+    background-size: cover;
+    background-position: center center; 
+    background-repeat: no-repeat;
+    height: 200px;
+    max-height: 100%;
+    max-width: 100%;
+    position: relative;
+}
+
+.event-title {
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.event h1 {
+    font-size: 1.2em;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.event h2 {
+    font-size: 1em;
+    color: #999999;
+}
+
+.event h3 {
+    color: #999999;
+}
+
+.event h4 {
+    color: #999999;
+}
+
+.event h5 {
+    color: #999999;
+}
+
+.event h6 {
+    color: #999999;
+}
+
+.event a, a:active, a:hover, a:visited {
+    color: ##007bff;
+    text-decoration-line: none;
+}
+
+.event-description {
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.event-icon {
+    right: 0;
+    position: absolute;
+    opacity: 0.7;
+    padding: 1em;
+    border-bottom-left-radius: 8px;
+}
+
+.event-icon-future {
+    height: 100%;
+    width: 100%;
+    text-align: right;
+    padding: 0.3em;
+}
+
+.event-icon-passed {
+    margin: 0;
+    padding: 0.3em;
+}
+
+.event-header {
+    max-height: 300px;
+}
+
+.event-keywords {
+    margin-bottom: 1em;
+    font-size: 0.7em;
+}
+
+.event-description {
+    margin-bottom: 1em;
+}
+
+.event-speakers {
+    bottom: 0;
+}

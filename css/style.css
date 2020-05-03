@@ -105,6 +105,9 @@ p {
 .btn-info {
   background: #1784fb;
   color: #fff;
+}
+
+h1.meetups-header {
   border: 2px solid #1784fb;
 }
 .btn-info:hover, .btn-info:focus, .btn-info:active {
@@ -1192,3 +1195,28 @@ p {
 /*   flex-wrap: wrap; */
 /* } */
 /*# sourceMappingURL=style.css.map */
+
+
+.event { 
+    background-color: pink;
+    margin: 0.3em;
+}
+
+.event-image {
+    height: 296px;
+}
+
+.event-header {
+    height: 296px;
+}
+
+.event-keywords ul{
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.event-keywords li {
+    display: inline-block;
+}

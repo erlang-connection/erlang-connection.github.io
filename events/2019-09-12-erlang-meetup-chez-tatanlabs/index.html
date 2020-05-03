@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Erlang Connection</title>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="content-language" content="en-US">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="HandheldFriendly" content="true">
+<meta name="apple-mobile-web-app-capable" content="no">
+<meta name="author" content="Erlang Connection ">
+<meta name="description" content="Free and open Erlang Connection organization">
+<meta name="keywords" content="">
+<meta name="referrer" content="origin">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="og:locale" content="en">
+<meta name="og:type" content="website">
+<meta name="og:description" content="Novembre c&#39;est pas le mois le plus joyeux de l&#39;année! Venez vous rechauffer au Meetup Erlang &amp; Elixir ! Nous serons cette fois hébergés par TalanLabs (https://talan.com/metiers/labs/) ! Merci a eux!
+Proposez nous un sujet ici : https://tinyurl.com/erlang-paris
+Au programme :
+  Nicolas SAVOIS (cette fois je pourrais vous montrer mon ecran!), je vous parlerais du Pattern Actor dans Elixir.
+  Benoit Chesneau, nous presentera Barrel 1.0, une plateforme de réplication P2P opensource et personnalisable écrite en Erlang.">
+<meta name="og:site_name" content="Erlang Connection">
+<meta name="og:title" content="Erlang Meetup chez TatanLabs">
+<meta name="og:url" content="https://erlang-connection.github.eu/events/2019-09-12-erlang-meetup-chez-tatanlabs/">
+
+<meta name="og:image" content="https://secure.meetupstatic.com/photos/event/7/3/9/1/event_485609585.jpeg">
+
+
+    <meta name="twitter:title" content="Erlang Connection">
+<meta name="twitter:url" content="https://erlang-connection.github.eu/events/2019-09-12-erlang-meetup-chez-tatanlabs/">
+<meta name="twitter:card" content="content">
+<meta name="twitter:description" content="Novembre c&#39;est pas le mois le plus joyeux de l&#39;année! Venez vous rechauffer au Meetup Erlang &amp; Elixir ! Nous serons cette fois hébergés par TalanLabs (https://talan.com/metiers/labs/) ! Merci a eux!
+Proposez nous un sujet ici : https://tinyurl.com/erlang-paris
+Au programme :
+  Nicolas SAVOIS (cette fois je pourrais vous montrer mon ecran!), je vous parlerais du Pattern Actor dans Elixir.
+  Benoit Chesneau, nous presentera Barrel 1.0, une plateforme de réplication P2P opensource et personnalisable écrite en Erlang.">
+<meta name="twitter:site" content="https://erlang-connection.github.eu">
+
+<meta name="twitter:image" content="https://secure.meetupstatic.com/photos/event/7/3/9/1/event_485609585.jpeg">
+
+
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="/css/style-posts.css">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Erlang Meetup chez TatanLabs</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="/events">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <form class="form-inline events-search my-lg-0">
+        <input class="form-control mr-sm-2 events-search" type="search" placeholder="Search" aria-label="Search">
+        
+      </form>
+  </div>
+</nav>
+
+    
+    <div class="post container-fluid">
+      <div class="row justify-content-center">
+        <div class="post-header col-sm-3">
+          <img class="post-image image-fluid" src="https://secure.meetupstatic.com/photos/event/7/3/9/1/event_485609585.jpeg">
+          <div class="post-header">
+            <div class="post-title">
+              <h1>Erlang Meetup chez TatanLabs</h1>
+              <h2></h2>
+            </div>
+            <div class="post-info">
+              <p>2019-09-12 19:00:00 &#43;0000 UTC</p>
+              <p>Paris, France</p>
+              <div class="post-keywords">
+                
+                <a href="#">pattern</a>
+                
+                <a href="#">actor</a>
+                
+                <a href="#">elixir</a>
+                
+                <a href="#">barrel-db</a>
+                
+                <a href="#">erlang</a>
+                
+                <a href="#">p2p</a>
+                
+              </div>
+              <hr>
+              
+              <div class="speaker">
+                <a href="">Nicolas Savois</a>: 
+                Pattern Actor dans Elixir
+              </div>
+              
+              <div class="speaker">
+                <a href="">Benoit Chesneau</a>: 
+                Présentation de barrel-db
+              </div>
+              
+            </div>
+          </div>
+          <hr>
+          <div class="post-np">
+            
+            <a class="previous" href="https://erlang-connection.github.eu/events/2019-09-10-erlang-meetup-chez-datadog/">Erlang Meetup chez Datadog</a>
+            <br>
+            
+            <a class="next" href="https://erlang-connection.github.eu/events/2019-10-09-erlang-meetup-chez-stuart/">Erlang Meetup chez Stuart</a>
+            
+          </div>
+        </div>
+        
+        <div class="post-content col-sm-4">
+          <p>Novembre c'est pas le mois le plus joyeux de l'année!  Venez vous
+rechauffer au Meetup Erlang &amp; Elixir ! Nous serons cette fois hébergés
+par TalanLabs (<a href="https://talan.com/metiers/labs/">https://talan.com/metiers/labs/</a>) ! Merci a eux!</p>
+<p>Proposez nous un sujet ici : <a href="https://tinyurl.com/erlang-paris">https://tinyurl.com/erlang-paris</a></p>
+<p>Au programme :</p>
+<ul>
+<li>
+<p>Nicolas SAVOIS (cette fois je pourrais vous montrer mon ecran!), je
+vous parlerais du Pattern Actor dans Elixir.</p>
+</li>
+<li>
+<p>Benoit Chesneau, nous presentera Barrel 1.0, une plateforme de
+réplication P2P opensource et personnalisable écrite en Erlang. Les
+developpeurs, opérateurs systèmes peuvent construire un système
+flexible et résilent adapté à leurs besoins en utilisant les API ou
+en ajoutant des modules en Erlang (ou Elixir).</p>
+</li>
+</ul>
+<p>Si on a un peu de temps on fera un &ldquo;Open Space&rdquo; pour échanger sur des
+sujet autour d'Elixir, d'Erlang et de la communauté !</p>
+<p>Si vous souhaitez héberger le Meetup envoyez moi un message!</p>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

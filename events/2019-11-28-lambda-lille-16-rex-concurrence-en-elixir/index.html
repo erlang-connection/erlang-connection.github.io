@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Erlang Connection</title>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="content-language" content="en-US">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="HandheldFriendly" content="true">
+<meta name="apple-mobile-web-app-capable" content="no">
+<meta name="author" content="Erlang Connection ">
+<meta name="description" content="Free and open Erlang Connection organization">
+<meta name="keywords" content="">
+<meta name="referrer" content="origin">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="og:locale" content="en">
+<meta name="og:type" content="website">
+<meta name="og:description" content="Salut à tous !
+Voici le premier meetup sous notre nouveau nom de Lambda Lille, mais la 16ème édition depuis la création du LilleFP !
+Au menu pour cette reprise, nous vous proposons un Retour d&#39;expérience de Benoît sur la concurrence en Elixir, suivi d&#39;une présentation par Guillaume de la gestion d&#39;erreurs en Scala.
+Cette session est hébergée par Epitech Lille que l&#39;on remercie chaleureusement !
+Les présentations seront suivies du traditionnel verre de l’amitié !">
+<meta name="og:site_name" content="Erlang Connection">
+<meta name="og:title" content="Lamba Lille 16: Rex Concurrence en Elixir">
+<meta name="og:url" content="https://erlang-connection.github.eu/events/2019-11-28-lambda-lille-16-rex-concurrence-en-elixir/">
+
+<meta name="og:image" content="https://images.unsplash.com/photo-1530811761207-8d9d22f0a141?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60">
+
+
+    <meta name="twitter:title" content="Erlang Connection">
+<meta name="twitter:url" content="https://erlang-connection.github.eu/events/2019-11-28-lambda-lille-16-rex-concurrence-en-elixir/">
+<meta name="twitter:card" content="content">
+<meta name="twitter:description" content="Salut à tous !
+Voici le premier meetup sous notre nouveau nom de Lambda Lille, mais la 16ème édition depuis la création du LilleFP !
+Au menu pour cette reprise, nous vous proposons un Retour d&#39;expérience de Benoît sur la concurrence en Elixir, suivi d&#39;une présentation par Guillaume de la gestion d&#39;erreurs en Scala.
+Cette session est hébergée par Epitech Lille que l&#39;on remercie chaleureusement !
+Les présentations seront suivies du traditionnel verre de l’amitié !">
+<meta name="twitter:site" content="https://erlang-connection.github.eu">
+
+<meta name="twitter:image" content="https://images.unsplash.com/photo-1530811761207-8d9d22f0a141?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60">
+
+
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="/css/style-posts.css">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Lamba Lille 16: Rex Concurrence en Elixir</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="/events">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <form class="form-inline events-search my-lg-0">
+        <input class="form-control mr-sm-2 events-search" type="search" placeholder="Search" aria-label="Search">
+        
+      </form>
+  </div>
+</nav>
+
+    
+    <div class="post container-fluid">
+      <div class="row justify-content-center">
+        <div class="post-header col-sm-3">
+          <img class="post-image image-fluid" src="https://images.unsplash.com/photo-1530811761207-8d9d22f0a141?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60">
+          <div class="post-header">
+            <div class="post-title">
+              <h1>Lamba Lille 16: Rex Concurrence en Elixir</h1>
+              <h2></h2>
+            </div>
+            <div class="post-info">
+              <p>2016-06-16 19:00:00 &#43;0000 UTC</p>
+              <p>Lille, France</p>
+              <div class="post-keywords">
+                
+                <a href="#">elixir</a>
+                
+                <a href="#">scala</a>
+                
+                <a href="#">rexp</a>
+                
+              </div>
+              <hr>
+              
+              <div class="speaker">
+                <a href="">Benoît Caccinolo</a>: 
+                
+              </div>
+              
+            </div>
+          </div>
+          <hr>
+          <div class="post-np">
+            
+            <a class="previous" href="https://erlang-connection.github.eu/events/2016-06-14-erlang-talks/">Erlang Talks</a>
+            <br>
+            
+            <a class="next" href="https://erlang-connection.github.eu/events/2016-06-16-atelier-erlang-apprendre-comprendre-apprendre-debuter/">Atelier Erlang, Apprendre, Comprendre, Débuter</a>
+            
+          </div>
+        </div>
+        
+        <div class="post-content col-sm-4">
+          <p>Salut à tous !</p>
+<p>Voici le premier meetup sous notre nouveau nom de Lambda Lille, mais
+la 16ème édition depuis la création du LilleFP !</p>
+<p>Au menu pour cette reprise, nous vous proposons un Retour d'expérience
+de Benoît sur la concurrence en Elixir, suivi d'une présentation par
+Guillaume de la gestion d'erreurs en Scala.</p>
+<p>Cette session est hébergée par Epitech Lille que l'on remercie
+chaleureusement !</p>
+<p>Les présentations seront suivies du traditionnel verre de l’amitié !</p>
+<h2 id="retour-dexpérience---concurrence-avec-elixir">Retour d'expérience - Concurrence avec Elixir</h2>
+<p>Dans le cadre de la découverte de ce langage fonctionnel plein de
+ressources, je vous fais un retour de ce que j'ai appris sur la
+concurrence en Elixir. Vous découvrirez mes différentes étapes de
+développement qui m'ont permis de mieux comprendre le fonctionnement
+de la concurrence.  Il n'est pas nécessaire de connaître Elixir dans
+ses moindres détails pour suivre cette présentation.</p>
+<p>Benoît Caccinolo est dev Ruby chez Synbioz et s'intéresse de plus en
+plus à la programmation fonctionnelle via Elixir and Clojurescript.</p>
+<h2 id="monade-io-et-gestion-des-erreurs--des-exceptions-à-cats-mtl">Monade IO et gestion des erreurs : des Exceptions à Cats MTL</h2>
+<p>Dans toutes les applications, des comportements imprévus peuvent
+survenir. Les applications &ldquo;purement fonctionnelles&rdquo; n'y échappent
+pas. De nombreux développeurs Scala ont recourt à des monades IO pour
+modeliser les parties impures de leurs applications comme la
+communication avec un serveur ou une base de données, mais les
+mécanismes de gestion des erreurs de ces monades, qu'on trouve dans
+Cats ou dans Monix par exemple, sont limités. Ce talk a pour but de
+distinguer les erreurs techniques et les erreurs &ldquo;métier&rdquo; et
+d'explorer quels outils Scala et Cats nous offrent pour gérer ces deux
+types d'erreurs. En partant de l'IO de Cats Effect et de ses méthodes
+de base, on arrivera à Cats MTL, une librairie de type classes qui
+ouvre de nouvelles possibilités dans la gestion des erreurs.</p>
+<p>Guillaume Bogard développe en Scala quotidiennement depuis 3
+ans. C'est un passionné de programmation fonctionnelle et un amateur
+de montagnes russes</p>
+<p>On vous donne rendez-vous le jeudi 28 novembre à 19h pour cette séance
+passionnante !</p>
+<p>Cordialement,</p>
+<p>L'équipe du Lambda Lille (ex-LilleFP)</p>
+<ul>
+<li><a href="https://www.meetup.com/fr-FR/LambdaLille/events/266407092/">https://www.meetup.com/fr-FR/LambdaLille/events/266407092/</a></li>
+</ul>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

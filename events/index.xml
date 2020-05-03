@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Events on Erlang Connection</title>
+    <link>https://erlang-connection.github.eu/events/</link>
+    <description>Recent content in Events on Erlang Connection</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 05 May 2020 19:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://erlang-connection.github.eu/events/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Erlang Online Meetup #2</title>
+      <link>https://erlang-connection.github.eu/events/2020-05-05-erlang-meetup-2/</link>
+      <pubDate>Tue, 05 May 2020 19:00:00 +0000</pubDate>
+      
+      <guid>https://erlang-connection.github.eu/events/2020-05-05-erlang-meetup-2/</guid>
+      <description>Erlang Connection organise son deuxième meetup en ligne le 05 mai 2020 à 19h et recherche des intervenants. Pour le prochain meetup nous aurions aimé rebondir sur la présentations de Sofiane Baddag “Secret JS design patterns in Phoenix, Elixir” (web et erlang, liveview, phoenix, h2o, …) et continuer la série introduite par Mathieu Kerjouan introduisant ou approfondissant un sujet autour d’un langage basé sur Erlang (pattern, usage, pratique…). Si vous avez une présentation autour d’un de ces thème, merci de nous contacter.</description>
+    </item>
+    
+    <item>
+      <title>Erlang Online Meetup #1</title>
+      <link>https://erlang-connection.github.eu/events/2020-04-07-erlang-meetup-1/</link>
+      <pubDate>Tue, 07 Apr 2020 19:00:00 +0000</pubDate>
+      
+      <guid>https://erlang-connection.github.eu/events/2020-04-07-erlang-meetup-1/</guid>
+      <description>Comme annoncée dans le contexte du COVID-19, il ne nous a pas été possible d’organiser un meetup Erlang &amp;amp; Elixir sur paris.
+Cependant nous pensons que ce meetup est un moment important nous permettant d’échanger nos experiences entre développeurs et décideurs. Aussi nous avons réfléchi à un nouveau format de meetup en ligne incluant présentations et discussions.
+Ce meetup est donc le premier du genre. Nous aurons deux talks et nous pourrons tous échanger en ligne.</description>
+    </item>
+    
+    <item>
+      <title>Erlang Meetup chez Booking.com</title>
+      <link>https://erlang-connection.github.eu/events/2020-02-12-erlang-meetup-booking/</link>
+      <pubDate>Wed, 12 Feb 2020 19:00:00 +0000</pubDate>
+      
+      <guid>https://erlang-connection.github.eu/events/2020-02-12-erlang-meetup-booking/</guid>
+      <description>Rendez-vous l&#39;année prochaine pour le prochain Meetup Erlang &amp;amp; Elixir. Nous serons cette fois hébergé par Booking.com (https://www.booking.com) ! Merci à eux!
+Au programme, deux présentations et des discussion informelles.
+Les présentations:
+Nicolas Talfer nous présentera un retour d&#39;expérience dans le cadre d&#39;un appel d&#39;offres pour un opérateur de téléphonie mobile en Amérique Latine, j&#39;ai réalisé pour Myriad un poc de S@T gateway en Elixir. L&#39;opérateur souhaite envoyer des offres promotionnelles via des applications SIM Toolkit déployées over-the-air.</description>
+    </item>
+    
+    <item>
+      <title>Erlang Meetup chez Stuart</title>
+      <link>https://erlang-connection.github.eu/events/2019-10-09-erlang-meetup-chez-stuart/</link>
+      <pubDate>Wed, 09 Oct 2019 19:00:00 +0000</pubDate>
+      
+      <guid>https://erlang-connection.github.eu/events/2019-10-09-erlang-meetup-chez-stuart/</guid>
+      <description>Pour démarrer l&#39;autonne, nous serons hébergé chez Stuart: https://stuart.com (merci à eux!). Une fois encore ce sera un meetup commun avec le meetup Elixir.
+Proposez nous un sujet ici : https://tinyurl.com/erlang-paris
+Au programme :
+  Nicolas SAVOIS, nous parlera du Pattern Actor dans Elixir.
+  Olivier Boudeville, nous parlera de Sim-Diasca (http://sim-diasca.com), un moteur de simulation à temps discret développé en Erlang : présentation de l’outil et retours au niveau langage</description>
+    </item>
+    
+    <item>
+      <title>Erlang Meetup chez TatanLabs</title>
+      <link>https://erlang-connection.github.eu/events/2019-09-12-erlang-meetup-chez-tatanlabs/</link>
+      <pubDate>Thu, 12 Sep 2019 19:00:00 +0000</pubDate>
+      
+      <guid>https://erlang-connection.github.eu/events/2019-09-12-erlang-meetup-chez-tatanlabs/</guid>
+      <description>Novembre c&#39;est pas le mois le plus joyeux de l&#39;année! Venez vous rechauffer au Meetup Erlang &amp;amp; Elixir ! Nous serons cette fois hébergés par TalanLabs (https://talan.com/metiers/labs/) ! Merci a eux!
+Proposez nous un sujet ici : https://tinyurl.com/erlang-paris
+Au programme :
+  Nicolas SAVOIS (cette fois je pourrais vous montrer mon ecran!), je vous parlerais du Pattern Actor dans Elixir.
+  Benoit Chesneau, nous presentera Barrel 1.0, une plateforme de réplication P2P opensource et personnalisable écrite en Erlang.</description>
+    </item>
+    
+    <item>
+      <title>Erlang Meetup chez Datadog</title>
+      <link>https://erlang-connection.github.eu/events/2019-09-10-erlang-meetup-chez-datadog/</link>
+      <pubDate>Tue, 10 Sep 2019 19:00:00 +0000</pubDate>
+      
+      <guid>https://erlang-connection.github.eu/events/2019-09-10-erlang-meetup-chez-datadog/</guid>
+      <description>On reprend les meetups ! Pour la reprise on va faire un évèvenement commun avec le meetup Elixir :D
+Nous serons hébergés par Datadog chez Datadog avec des stickers Datadog! Merci a eux!
+Au programme :
+  Loïc Hoguin nous présentera Gun 2.0 - un client http et websocket pour Erlang.
+  Yann Very nous parlera de Nerves et de GPS. et votre talks a vous !
+  Et on vous fera une annonce avec Nicolas Savoie!</description>
+    </item>
+    
+    <item>
+      <title>Coding Dojo Erlang</title>
+      <link>https://erlang-connection.github.eu/events/2018-10-02-introduction-a-erlang-coding-dojo/</link>
+      <pubDate>Tue, 02 Oct 2018 19:00:00 +0000</pubDate>
+      
+      <guid>https://erlang-connection.github.eu/events/2018-10-02-introduction-a-erlang-coding-dojo/</guid>
+      <description>my text here&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Rencontre Autour d&#39;Erlang</title>
+      <link>https://erlang-connection.github.eu/events/2018-09-07-rencontre-autour-d-erlang/</link>
+      <pubDate>Fri, 07 Sep 2018 19:00:00 +0000</pubDate>
+      
+      <guid>https://erlang-connection.github.eu/events/2018-09-07-rencontre-autour-d-erlang/</guid>
+      <description>my text here&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Erlang Meets OW2</title>
+      <link>https://erlang-connection.github.eu/events/2018-06-07-erlang-meetup-ow2/</link>
+      <pubDate>Thu, 07 Jun 2018 13:00:00 +0000</pubDate>
+      
+      <guid>https://erlang-connection.github.eu/events/2018-06-07-erlang-meetup-ow2/</guid>
+      <description>OW2 has been promoting Open Source Infrastructure projects since 11 years now. We believe erlang/elixir technologies particularly dovetails with emerging challenges in the domain of infrastructures.
+It is time OW2 and erlang communities meet and exchange !
+https://www.ow2con.org/
+Practical informations If you want to propose a talk, please use the following form, checking &amp;lsquo;Open Source Communities Meet-Ups&amp;rsquo; keyword:
+ https://www.ow2con.org/view/Speakers/OW2con18_Submit?year=2018&amp;amp;event=OW2con18  For logistic reasons, all attendants must register (freely) to the conference:</description>
+    </item>
+    
+    <item>
+      <title>LilleFP #2</title>
+      <link>https://erlang-connection.github.eu/events/2016-10-28-lille-fp-2-lille-elixir/</link>
+      <pubDate>Mon, 16 Oct 2017 19:00:00 +0000</pubDate>
+      
+      <guid>https://erlang-connection.github.eu/events/2016-10-28-lille-fp-2-lille-elixir/</guid>
+      <description>Salut à tous, après quelques mois, nous relançons l’événement LilleFP ! Cette deuxième édition est réalisée en partenariat avec nos amis de Lille |&amp;gt; Elixir ! Comme la première édition, l’événement se déroulera chez Dernier Cri (que nous remercions chaleureusement pour leur accueil !). 16 Place du Général de Gaulle (Oui… à Lille… donc Grand Place, à côté du Zara), il y a un interphone, il faut sonner à Dernier Cri.</description>
+    </item>
+    
+    <item>
+      <title>LilleFP 7, Elixir FTW</title>
+      <link>https://erlang-connection.github.eu/events/2017-10-16-lillefp-7-elixir-ftw/</link>
+      <pubDate>Mon, 16 Oct 2017 19:00:00 +0000</pubDate>
+      
+      <guid>https://erlang-connection.github.eu/events/2017-10-16-lillefp-7-elixir-ftw/</guid>
+      <description>Salut à tous,
+Après plus d&#39;un mois d&#39;inactivité, nous revoici pour un événement haut en couleur ! Comme pour l&#39;édition précédente, nous vous donnons rendez-vous le 16/11/2017 à 19h dans les locaux Epitech Lille (que nous remercions chaleureusement) pour une édition spéciale Elixir/OTP en plein coeur de Lille !
+Au programme de cette édition, deux présentations originales !
+Exploration des meta-formats via les bitstrings en Elixir
+Par Julien Leclercq (https://twitter.com/Juli1_leclercq), développeur chez Dernier Cri.</description>
+    </item>
+    
+    <item>
+      <title>Meet Robert Virding in Paris!</title>
+      <link>https://erlang-connection.github.eu/events/2017-05-18-meet-robert-virding-in-paris/</link>
+      <pubDate>Thu, 18 May 2017 19:00:00 +0000</pubDate>
+      
+      <guid>https://erlang-connection.github.eu/events/2017-05-18-meet-robert-virding-in-paris/</guid>
+      <description>Robert Virding is one of the inventors of Erlang. He is giving a talk at the NCrafts.io conference. This is the opportunity to meet him personally during our meetup around an open discussion.
+** This meetup is limited to 20 persons MAX! **
+There will be 3 speakers, and max 20 participants.
+Speakers:
+  Robert Virding: problems in implementing OO on top of Erlang
+  Arnaud Wetzel: Introduction of Erlang strength with a simple home automation App</description>
+    </item>
+    
+    <item>
+      <title>Erlang/Elixir talks</title>
+      <link>https://erlang-connection.github.eu/events/2017-04-06-erlang-elixir-talks/</link>
+      <pubDate>Fri, 07 Apr 2017 19:00:00 +0000</pubDate>
+      
+      <guid>https://erlang-connection.github.eu/events/2017-04-06-erlang-elixir-talks/</guid>
+      <description>Cette fois, c&#39;est KBRW-Ad-venture qui vous propose un meetup erlang/elixir.
+KBRW exploite une plate-forme majoritairement en elixir et adresse de nombreux clients dans le domaine du e-commerce. Ils présenteront un retour d&#39;expérience sur l&#39;utilisation d&#39;elixir en général, et sur quelques briques elixir open source.
+Bernard Notarianni et Benoît Chesneau nous parlerons du projet Barrel.
+Reste du programme en cours de définition.
+À bientôt !</description>
+    </item>
+    
+    <item>
+      <title>Workshop Erlang</title>
+      <link>https://erlang-connection.github.eu/events/2016-06-29-workshop-erlang/</link>
+      <pubDate>Wed, 29 Jun 2016 19:00:00 +0000</pubDate>
+      
+      <guid>https://erlang-connection.github.eu/events/2016-06-29-workshop-erlang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Atelier Erlang, Apprendre, Comprendre, Débuter</title>
+      <link>https://erlang-connection.github.eu/events/2016-06-16-atelier-erlang-apprendre-comprendre-apprendre-debuter/</link>
+      <pubDate>Thu, 16 Jun 2016 19:00:00 +0000</pubDate>
+      
+      <guid>https://erlang-connection.github.eu/events/2016-06-16-atelier-erlang-apprendre-comprendre-apprendre-debuter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lamba Lille 16: Rex Concurrence en Elixir</title>
+      <link>https://erlang-connection.github.eu/events/2019-11-28-lambda-lille-16-rex-concurrence-en-elixir/</link>
+      <pubDate>Thu, 16 Jun 2016 19:00:00 +0000</pubDate>
+      
+      <guid>https://erlang-connection.github.eu/events/2019-11-28-lambda-lille-16-rex-concurrence-en-elixir/</guid>
+      <description>Salut à tous !
+Voici le premier meetup sous notre nouveau nom de Lambda Lille, mais la 16ème édition depuis la création du LilleFP !
+Au menu pour cette reprise, nous vous proposons un Retour d&#39;expérience de Benoît sur la concurrence en Elixir, suivi d&#39;une présentation par Guillaume de la gestion d&#39;erreurs en Scala.
+Cette session est hébergée par Epitech Lille que l&#39;on remercie chaleureusement !
+Les présentations seront suivies du traditionnel verre de l’amitié !</description>
+    </item>
+    
+    <item>
+      <title>Erlang Talks</title>
+      <link>https://erlang-connection.github.eu/events/2016-06-14-erlang-talks/</link>
+      <pubDate>Tue, 14 Jun 2016 19:00:00 +0000</pubDate>
+      
+      <guid>https://erlang-connection.github.eu/events/2016-06-14-erlang-talks/</guid>
+      <description>Après avoir mis en place de plusieurs API orientées REST, Camille Troillard (Alphametry (https://alphametry.com/)) nous livrera son retour d’expérience sur son travail avec Erlang, depuis la phase de conception jusqu’au déploiement sur AWS.
+Pierre Fenoll (@radioxid (https://twitter.com/radioxid)) l&#39;actuel mainteneur de Erldocs (http://erldocs.com) nous présentera &amp;ldquo;There are literally thousands of Erlang projects&amp;rdquo;.
+Murex (https://www.murex.com/) nous offrira un buffet en cloture.</description>
+    </item>
+    
+    <item>
+      <title>Découvrir et Échanger autour d&#39;Erlang/OTP</title>
+      <link>https://erlang-connection.github.eu/events/2016-03-30-decouvrir-echanger-autour-d-erlang/</link>
+      <pubDate>Wed, 30 Mar 2016 19:00:00 +0000</pubDate>
+      
+      <guid>https://erlang-connection.github.eu/events/2016-03-30-decouvrir-echanger-autour-d-erlang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Erlang Talks</title>
+      <link>https://erlang-connection.github.eu/events/2015-10-14-erlang-talks/</link>
+      <pubDate>Wed, 14 Oct 2015 19:00:00 +0000</pubDate>
+      
+      <guid>https://erlang-connection.github.eu/events/2015-10-14-erlang-talks/</guid>
+      <description>Torben Hoffmann (Basho (http://basho.com)) viendra tout spécialement nous faire une présentation de Riak.
+Éric Cestari (cstar industries (http://cstar.io)) nous présentera &amp;ldquo;Une application web rapidement en production, pour pas un rond (ou presque) — Heroku sous Nitrogen&amp;rdquo;.
+Jérome Renard (ingénieur chez Swelen (http://www.swelen.com)) nous fera un retour d&#39;expérience sur la ré-écriture complète de Python à Erlang d&#39;un adserver par 2 personnes qui ne connaissaient rien à Erlang, pourquoi ils ont chois Erlang et le chemin qui nous a amené jusqu&#39;à la mise en production finale.</description>
+    </item>
+    
+    <item>
+      <title>Erlang et son Eco-Système</title>
+      <link>https://erlang-connection.github.eu/events/2015-06-29-erlang-et-son-ecosysteme/</link>
+      <pubDate>Mon, 29 Jun 2015 19:00:00 +0000</pubDate>
+      
+      <guid>https://erlang-connection.github.eu/events/2015-06-29-erlang-et-son-ecosysteme/</guid>
+      <description>La machine virtuelle Erlang est à la mode. Elle reste la valeur sure pour construire les architectures distribuées, temps réel et à haute dispo sur lesquelles nous pouvons articuler les nouvelles applications Web/Mobile, Big Data ou Machine Learning.
+Beaucoup de langages se reposent dessus aujourd’hui. La référence historique Erlang bien évidemment, mais aussi la valeur montante Elixir et le très surprenant LFE (Lisp Flavored Erlang). Nous pourrions ajouter Reia, Joxa, Bran, etc.</description>
+    </item>
+    
+    <item>
+      <title>Calcul Distribué avec Erlang</title>
+      <link>https://erlang-connection.github.eu/events/2015-03-04-calcul-distribue-avec-erlang/</link>
+      <pubDate>Wed, 04 Mar 2015 19:00:00 +0000</pubDate>
+      
+      <guid>https://erlang-connection.github.eu/events/2015-03-04-calcul-distribue-avec-erlang/</guid>
+      <description>Antoine Reyt et moi-même avons mené une expérimentation de calcul distribué sur plusieurs nœuds (serveurs) avec Erlang.
+Nous souhaitions découvrir et pratiquer ensemble les différents modes de traitements disponibles nativement en Erlang : calcul non-parallèle, calcul en parallèle utilisant l’ensemble des cœurs disponibles et enfin distribution du calcul sur plusieurs nœuds (machines).
+Cette session a pour objectif de partager avec la communauté le résultat de nos investigations : ce que nous avons testé, le code que nous avons écrit, et les lecons apprises.</description>
+    </item>
+    
+    <item>
+      <title>Kickoff</title>
+      <link>https://erlang-connection.github.eu/events/2014-12-04-kickoff/</link>
+      <pubDate>Thu, 04 Dec 2014 19:00:00 +0000</pubDate>
+      
+      <guid>https://erlang-connection.github.eu/events/2014-12-04-kickoff/</guid>
+      <description>Une première rencontre pour se connaitre et partager ensemble les sujets que nous souhaitons aborder et partager dans les mois à venir.
+Je vous propose l&#39;agenda disponible ici. (https://github.com/Erlang-Startups-Paris/meetups/blob/master/kickoff.md)
+Si vous avez des questions ou remarques, vous pouvez les publier sur l&#39;issue Gihub (https://github.com/Erlang-Startups-Paris/meetups/issues/1) correspondante.</description>
+    </item>
+    
+  </channel>
+</rss>
